@@ -1,6 +1,8 @@
 # FinalProject
 
 
+
+
 ### Team
 - Sandra Harpole -  Scrum Master
 - Forrest January - Team Member
@@ -20,6 +22,8 @@ At the onset of the project, our team thought that it would require very little 
 After completing all of the required 29 entities classes, including several key classes, and jUnit tests, we moved on to completing user stories from our trello board. As we worked through each story, we built out required repository, services, serviceImpls and controllers. We also tested necessary routing via Postman ensuring we were getting the right data. 
 
 Deployed application: 
+
+http://35.83.15.242:8080/Paseo/#/home
 
 ### Expected Routes
 
