@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { WalkCategory } from './../models/walk-category';
 import { Injectable } from '@angular/core';
-import { environment } from 'src/environments/environment.development';
+import { environment } from 'src/environments/environment';
 import { Observable, catchError, throwError } from 'rxjs';
 import { AuthService } from './auth.service';
 

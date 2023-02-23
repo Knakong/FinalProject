@@ -189,4 +189,9 @@ export class MessagesComponent implements OnInit {
     this.router.navigateByUrl('/home');
   }
 }
+
+refresh() {
+  this.modalService.dismissAll();
+  location.reload();
+}
 }

@@ -149,7 +149,7 @@
                     </div>
                     <div class="modal-footer">
                       <app-create-message [receiverId]="viewedMessage.sender.id" [message]="createdMessage"
-                      (click)="createdMessage.contents = ''"></app-create-message>
+                      (click)="createdMessage.contents = ''; refresh()"></app-create-message>
                     </div>
                   </ng-template>
                   <!-- End Reply Modal -->
@@ -181,7 +181,7 @@
                     </div>
                     <div class="modal-footer">
                       <app-create-message [message]="createdMessage" [receiverUsername]="receiverUsername"
-                      (click)="close()"></app-create-message>
+                      (click)="close(); refresh()"></app-create-message>
                     </div>
                   </ng-template>
                   <!-- End Compose Modal -->

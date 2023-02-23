@@ -139,7 +139,7 @@ export class ProfileComponent implements OnInit {
     });
   }
 
-
+  //Mapped user created walks
   getUserWalks() {
     this.walkService.getUserWalks(this.user.id).subscribe({
       next: (data) => {
@@ -293,8 +293,8 @@ export class ProfileComponent implements OnInit {
         }
       );
     this.viewedWalk = walk;
-    for (let walk of this.joinedWalks) {
-      if (walk.id === this.viewedWalk.id) {
+    for (let walkId of this.joinedWalks) {
+      if (walkId.id === this.viewedWalk.id) {
         this.viewedWalkJoined = true;
         break;
       }
